@@ -1,6 +1,5 @@
 package com.prive.broker.dto.request;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.prive.broker.entity.BrokerEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,7 +15,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 public class BrokerRequestDto {
 
-	@JsonProperty("id")
+
 	@NotEmpty
 	@NotNull
 	private  String orderId;
